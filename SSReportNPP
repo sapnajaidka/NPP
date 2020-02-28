@@ -1,0 +1,74 @@
+CPN Tools state space report for:
+/cygdrive/C/Users/Dell/Desktop/NPP/analysisfinalchnge.cpn
+Report generated: Sat Feb  8 17:22:51 2020
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  33756
+     Arcs:   108778
+     Secs:   267
+     Status: Full
+
+  Scc Graph
+     Nodes:  27754
+     Arcs:   82942
+     Secs:   6
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     None
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     102 [8674,8673,8672,8671,8664,...]
+
+  Dead Transition Instances
+     stablestate'S_DecreaseWP2Speed 1
+     stablestate'S_IncreaseWP2Speed 1
+
+  Live Transition Instances
+     None
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+
+  Impartial Transition Instances
+     None
+
+  Fair Transition Instances
+     stablestate'I_scram 1
+     stablestate'S_DecreaseWP2Speed 1
+     stablestate'S_IncreaseWP2Speed 1
+     stablestate'S_LowerControlRods 1
+
+  Just Transition Instances
+     None
+
+  Transition Instances with No Fairness
+     stablestate'S_CloseSV1 1
+     stablestate'S_CloseSV2 1
+     stablestate'S_CloseWV1 1
+     stablestate'S_CloseWV2 1
+     stablestate'S_DecreaseCPspeed 1
+     stablestate'S_DecreaseWP1Speed 1
+     stablestate'S_IncreaseCPspeed 1
+     stablestate'S_IncreaseWP1Speed 1
+     stablestate'S_OpenSV1 1
+     stablestate'S_OpenSV2 1
+     stablestate'S_OpenWV1 1
+     stablestate'S_OpenWV2 1
+     stablestate'S_RaiseControlRods 1
